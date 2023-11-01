@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    display: -webkit-flex;
 }
 .Welcome-page {
     background-image: url('picture/heic1913a.jpeg');
@@ -10,7 +11,6 @@ body {
     background-position: center;
     height: 100vh;
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
