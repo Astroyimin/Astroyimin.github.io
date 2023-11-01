@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    .content h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .main-page {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main-page h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .main-page h2 {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+    .main-page p {
+        font-size: 1em;
+        margin-top: 10px;
+    }

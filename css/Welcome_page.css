@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.Welcome-page {
+    background-image: url('picture/heic1913a.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Welcome-page h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.Welcome-page h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+button.w {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+}
+
