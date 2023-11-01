@@ -9,11 +9,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
-    display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
+    display: -webkit-flex;
     justify-content: center;
-    -webkit-align-items: center;
     align-items: center;
     text-align: center;
     color: white;
@@ -36,3 +34,4 @@ button.w {
     font-size: 1em;
     cursor: pointer;
 }
+
