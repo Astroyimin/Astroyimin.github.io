@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html, body {
@@ -17,7 +16,6 @@ html, body {
     text-align: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    animation: fade 20s infinite;
 }
 
 .background {
@@ -31,35 +29,14 @@ html, body {
     background-attachment: fixed;
     background-position: center;
     z-index: -1;
-    opacity: 0;
-    animation: fade2 5s infinite;
+    opacity: 0.9;
 }
 .background-1 {
     background-image: url('picture/heic1913a.jpeg');
-    opacity: 1; /* Make the first image visible at the start */
+
 }
 
-.background-2 {
-    background-image: url('picture/Black_hole04.jpg');
-    animation-delay: 5s;
-}
-@keyframes fade {
-    0%{
-        opacity: 0;
-    }
-    25%{
-        opacity: 1;
-    }
-    
-}
-@keyframes fade2 {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
+
 .Welcome-page h2{
     font-size: 2em;
     margin-top: 20px;
@@ -70,7 +47,9 @@ html, body {
     margin-bottom: 20px;
     color: white;
 }
+
 .Welcome-page button{
-    font-size: 1em;
-    margin-top: 10px;
+    size: 3em;
+    color: black;
+    background-color: transparent;
 }
