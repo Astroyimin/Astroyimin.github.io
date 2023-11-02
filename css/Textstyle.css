@@ -1,0 +1,29 @@
+.middle {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .middle h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Add this line */
+  }
+  
+  .middle h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .middle p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+.left{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
