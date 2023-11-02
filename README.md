@@ -6,6 +6,6 @@ You can find these five part we need to write as **"Program","Speakers","Registr
 
 change content by`<p> content <p>` 
 
-change tiltl by '<h1> title <h1>' 
+change tiltl by`<h1> title <h1>`
 
 Every format abour main in stytle.css
